@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import Dashboard from './components/Dashboard.vue'
 </script>
 
 <template>
-  <div class="flex flex-row text-center">
+  <div class="flex flex-row text-center font-family: 'Plus Jakarta Sans', sans-serif;">
     <div class="basis-2/12">
       Cucane
     </div>
@@ -19,10 +18,5 @@ import Dashboard from './components/Dashboard.vue'
       Dimi
     </div>
   </div>
-
-  <div class="text-center">
-    <a href="https://www.figma.com/file/06HZFstHuHf9EjnuuXbJ6S/dvop-weather-dashboard">LINK</a>
-  </div>
 </template>
-
 <style scoped></style>

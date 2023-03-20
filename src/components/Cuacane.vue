@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="font-bold text-xl pt-10">
-    <img class="inline" src="../assets/cuacane-logo.png">
+  <div class="font-extrabold text-xl pt-10">
+    <img class="inline pr-2" src="../assets/cuacane-logo.png">
     Cuacane
   </div>
 </template>

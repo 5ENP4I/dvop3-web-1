@@ -1,8 +1,9 @@
-<script setup>
+<script>
 import BlueBoard from './components/BlueBoard.vue'
 import Vyhledavac from './components/Vyhledavac.vue'
 
 </script>
+
 
 <template>
   <div class="flex flex-row">

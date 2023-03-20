@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Dashboard from './components/Dashboard.vue'
+import Cuacane from './components/Cuacane.vue'
 </script>
 
 <template>
-  <div class="flex flex-row text-center">
+  <div class="flex flex-row text-center font-jakarta">
     <div class="basis-2/12">
-      Cucane
+      <Cuacane>Cuacane</Cuacane>
     </div>
     <div class="flex flex-col basis-7/12 bg-blue-500">
       <div class="basis-8/15">

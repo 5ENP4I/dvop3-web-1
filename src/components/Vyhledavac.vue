@@ -1,9 +1,14 @@
-<script setup>
+<script lang ="ts">
+
+export default ({
+      name : 'Vyhledavac'
+    })
+
 </script>
 
 <template>
-  <div>
-    Vyhledavac
+  <div >
+    Toto je vsunuta komponenta
   </div>
 </template>
 

@@ -8,8 +8,8 @@
 
 <template>
   <div>
-    <div class="flex flex-row border-4  h-[15rem] w-[40rem] border-[#BADCFF] rounded-lg bg-[#BADCFF] place-content-stretch">
-      <div class="flex flex-col basis-1/2 mx-4">
+    <div class="flex flex-row border-4 p-5  my-10 border-[#BADCFF] rounded-lg bg-[#BADCFF] place-content-stretch">
+      <div class="flex flex-col basis-1/2 pr-5">
         <div class="flex flex-row basis-1/4">
           <div class="flex items-center basis-1/2 ">
             <img src="../../public/Location.svg">
@@ -39,8 +39,8 @@
         </div>
       </div>
       
-      <div class="basis-1/2 border-4 border-[#C4E2FF] rounded-lg bg-[#C4E2FF] m-1.5">
-        Stupid diagram
+      <div class="basis-1/2 border-4 border-[#d5eaff] rounded-lg bg-[#C4E2FF] m-1.5">
+        <img src="../../public/Diagram.PNG"/>
       </div>
     </div>
   </div>

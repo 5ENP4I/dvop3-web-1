@@ -19,18 +19,19 @@ export default({
       Pavel
     </div>
     
-    <div class=" flex flex-col basis-7/12">
+    <div class=" flex flex-col basis-7/12 p-5">
 
-      <div class="flex flex-col basis-[53.4%]">
-        <div class="basis-[26.31%]">
+      <div class="flex flex-col w-full">
+        <div class=" w-full flex">
           <Vyhledavac/>
         </div>
-        <div class="basis-[73.68%] m-auto w-745 h-345">
+        <div class="w-full">
           <BlueBoard/>
         </div>
       </div>
 
       <div class="basis-[46.7%] bg-red-500">Pavel</div>
+
     </div>
     
     <div class="flex flex-col basis-3/12 bg-red-800">

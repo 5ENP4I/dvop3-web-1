@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import Cuacane from './components/Cuacane.vue'
+import Dashboard from './components/Dashboard.vue'
+import Map from './components/Map.vue'
 </script>
 
 <template>
   <div class="flex flex-row text-center font-jakarta">
     <div class="basis-2/12">
       <Cuacane>Cuacane</Cuacane>
+      <Dashboard>Dashboard</Dashboard>
+      <Map>Map</Map>
     </div>
     <div class="flex flex-col basis-7/12 bg-blue-500">
       <div class="basis-8/15">
@@ -18,10 +22,6 @@ import Cuacane from './components/Cuacane.vue'
     <div class="basis-3/12 bg-blue-500 ">
       Dimi
     </div>
-  </div>
-
-  <div class="text-center">
-    <a href="https://www.figma.com/file/06HZFstHuHf9EjnuuXbJ6S/dvop-weather-dashboard">LINK</a>
   </div>
 </template>
 

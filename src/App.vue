@@ -22,7 +22,7 @@ export default({
     <div class=" flex flex-col basis-7/12 p-5">
 
       <div class="flex flex-col w-full">
-        <div class=" w-full flex">
+        <div class="w-full">
           <Vyhledavac/>
         </div>
         <div class="w-full">

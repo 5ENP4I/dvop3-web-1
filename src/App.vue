@@ -1,12 +1,15 @@
 <script lang="ts">
 import BlueBoard from "./components/BlueBoard.vue"
 import Vyhledavac from './components/Vyhledavac.vue';
+import SideBarRight from './components/SideBarRight.vue';
 
 export default({
   name : 'App',
   components: {
     BlueBoard,
-    Vyhledavac
+    Vyhledavac,
+    SideBarRight
+    
   }
 })
 </script>
@@ -34,17 +37,9 @@ export default({
 
     </div>
     
-    <div class="flex flex-col basis-3/12 bg-red-800">
-      
-      <div class="basis-[11.2%] bg-blue-900">
-        Nadpis
-      </div>
-      <div class="basis-[88.9%] bg-blue-400">
-        Dny
-      </div>
-
+    <div class="basis-3/12">
+      <SideBarRight/>
     </div>
-
   </div>
 
 </template>

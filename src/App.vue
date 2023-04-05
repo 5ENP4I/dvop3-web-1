@@ -22,7 +22,7 @@ export default({
       Pavel
     </div>
     
-    <div class=" flex flex-col basis-7/12 p-5">
+    <div class=" flex flex-col basis-7/12 px-10 py-3">
 
       <div class="flex flex-col w-full">
         <div class="w-full">

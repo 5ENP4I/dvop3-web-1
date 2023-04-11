@@ -1,7 +1,18 @@
 <script lang ="ts">
 
     export default ({
-      name : 'BlueBoard'
+      name : 'BlueBoard',
+      data(){
+        return{
+          mainTemp:14,
+          city:"Gotham",
+          preasure:720,
+          humidity:32,
+          wind:12,
+          state: "Mostly Clear",
+          time:"00:32 PM"
+        }
+      }
     })
 
 </script>
@@ -13,34 +24,34 @@
         <div class="flex flex-row basis-1/4">
           <div class="flex items-start basis-1/2 font-semibold">
             <img src="../../public/Location.svg">
-            <p>Gotham</p>
+            <p>{{city}}</p>
           </div>
           <div class="flex items-start justify-end basis-1/2">
-            <p>Today 00:32 PM</p>
+            <p>Today {{time}}</p>
           </div>    
         </div>
         <div class="basis-2/4 text-center font-Font1 font-medium">
-          <h1 class="text-[100px]">14&deg;</h1>
-          <p>Mostly Clear</p>
+          <h1 class="text-[100px]">{{mainTemp}}&deg;</h1>
+          <p>{{state}}</p>
         </div>
         <div class="flex flex-row basis-1/4 font-semibold">
           <div class="basis-1/3 flex items-end justify-start">
             <img src="../../public/Preasure.svg">
-            <p>720hpa</p>
+            <p>{{preasure}}hpa</p>
           </div>
           <div class="basis-1/3 flex items-end justify-center">
             <img src="../../public/Humidity.svg">
-            <p>32%</p>
+            <p>{{humidity}}%</p>
           </div>
           <div class="basis-1/3 flex items-end justify-end">
             <img src="../../public/Wind.svg">
-            <p>12km/h</p>
+            <p>{{wind}}km/h</p>
           </div>
         </div>
       </div>
       
-      <div class="basis-1/2 border-4 border-[#d5eaff] rounded-lg bg-[#d5eaff]">
-        <img src="../../public/Diagram.svg"/>
+      <div class="basis-1/2 items-center">
+        <img src="../../public/Diagram.svg" class="border-4 border-[#d5eaff] rounded-lg bg-[#d5eaff]"/>
       </div>
     </div>
   </div>

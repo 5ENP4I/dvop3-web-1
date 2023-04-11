@@ -1,7 +1,9 @@
 <script lang ="ts">
 
     export default ({
-      name : 'Day'
+      name : 'Day',
+      props:{
+      }
     })
 </script>
 

@@ -1,0 +1,58 @@
+[
+    {
+        "id":0,
+        "temp":14,
+        "dayOfWeek":"Today",
+        "sunState":"Yellow", 
+        "date": "12 Apr"
+    },
+    {
+        "id":1,
+        "temp":16,
+        "dayOfWeek":"Tomorrow",
+        "sunState":"Yellow", 
+        "date": "13 Apr"
+    },
+    {
+        "id":2,
+        "temp":15,
+        "dayOfWeek":"Monday",
+        "sunState":"Yellow", 
+        "date": "14 Apr"
+    },
+    {
+        "id":3,
+        "temp":14,
+        "dayOfWeek":"Tuesday",
+        "sunState":"Yellow", 
+        "date": "15 Apr"
+    },
+    {
+        "id":4,
+        "temp":14,
+        "dayOfWeek":"Wednesday",
+        "sunState":"Yellow", 
+        "date": "16 Apr"
+    },
+    {
+        "id":5,
+        "temp":16,
+        "dayOfWeek":"Thursday",
+        "sunState":"Yellow", 
+        "date": "17 Apr"
+    },
+    {
+        "id":6,
+        "temp":16,
+        "dayOfWeek":"Friday",
+        "sunState":"Yellow", 
+        "date": "18 Apr"
+    },
+    {
+        "id":7,
+        "temp":12,
+        "dayOfWeek":"Saturday",
+        "sunState":"Yellow", 
+        "date": "19 Apr"
+    }
+]

@@ -3,56 +3,104 @@
         "id":0,
         "temp":14,
         "dayOfWeek":"Today",
-        "sunState":"Yellow", 
-        "date": "12 Apr"
+        "sunState":"White", 
+        "date": "12 Apr",
+        "IsClicked":true,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":1,
         "temp":16,
         "dayOfWeek":"Tomorrow",
         "sunState":"Yellow", 
-        "date": "13 Apr"
+        "date": "13 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":2,
         "temp":15,
         "dayOfWeek":"Monday",
         "sunState":"Yellow", 
-        "date": "14 Apr"
+        "date": "14 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":3,
         "temp":14,
         "dayOfWeek":"Tuesday",
         "sunState":"Yellow", 
-        "date": "15 Apr"
+        "date": "15 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":4,
         "temp":14,
         "dayOfWeek":"Wednesday",
-        "sunState":"Yellow", 
-        "date": "16 Apr"
+        "sunState":"Blue", 
+        "date": "16 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":5,
         "temp":16,
         "dayOfWeek":"Thursday",
         "sunState":"Yellow", 
-        "date": "17 Apr"
+        "date": "17 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":6,
         "temp":16,
         "dayOfWeek":"Friday",
         "sunState":"Yellow", 
-        "date": "18 Apr"
+        "date": "18 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     },
     {
         "id":7,
         "temp":12,
         "dayOfWeek":"Saturday",
-        "sunState":"Yellow", 
-        "date": "19 Apr"
+        "sunState":"Blue", 
+        "date": "19 Apr",
+        "IsClicked":false,
+        "nearestHoursdata":{
+            "first":26, "hour1SunState":"Yellow", 
+            "second":25, "hour2SunState":"Yellow", 
+            "third":25, "hour3SunState": "Yellow"
+        }
     }
 ]

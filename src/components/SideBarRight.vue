@@ -1,11 +1,17 @@
 <script lang ="ts">
 
     import Day from './Day.vue'
+    import DaysData from '../assets/DaysData.json'
 
     export default ({
       name : 'SideBarRight',
       components: {
         Day
+      },
+      data(){
+        return{
+            DaysData
+        };
       }
     })
 </script>
@@ -18,13 +24,16 @@
             <div><img src="../../public/ArrowRight.svg"/></div>
         </div>
         <div class="basis-[88.9%]">
-            <Day/>
-            <Day/>
-            <Day/>
-            <Day/>
-            <Day/>
-            <Day/>
-            <Day/>
+            <Day v-for="record in DaysData"
+            :key="record.id"
+            :temp="record.temp"
+            :day-of-week="record.dayOfWeek"
+            :sun-state="record.sunState"
+            :date="record.date"
+            :is-shown-as-clicked="record.IsClicked"
+            :first-hour="record.nearestHoursdata.first" :first-sun-state="record.nearestHoursdata.hour1SunState"
+            :second-hour="record.nearestHoursdata.second" :second-sun-state="record.nearestHoursdata.hour2SunState"
+            :third-hour="record.nearestHoursdata.third" :third-sun-state="record.nearestHoursdata.hour3SunState"/>
         </div>
     </div>
 </template>

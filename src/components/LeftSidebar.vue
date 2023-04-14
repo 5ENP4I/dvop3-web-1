@@ -4,7 +4,7 @@
 <template>
   <div class="font-extrabold text-xl pt-10 pb-16 border-r-2">
     <img class="inline pr-2" src="/cuacane-logo.png">
-    <a href="https://www.figma.com/file/06HZFstHuHf9EjnuuXbJ6S/dvop-weather-dashboard">Cuacane</a>
+    Cuacane
   </div>
   <div class="pb-7"></div>
 
@@ -39,4 +39,3 @@
     <div class="pt-6"></div>
   </div>
 </template>
-<style scoped></style>

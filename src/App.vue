@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import LeftSidebar from './components/LeftSidebar.vue'
-import Dasd from './components/dasd.vue'
+import Properties from './components/Properties.vue'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import Dasd from './components/dasd.vue'
         Dimi
       </div>
       <div class="basis-7/15">
-        <dasd>asd</dasd>
+        <Properties>Properties</Properties>
       </div>
     </div>
     <div class="basis-3/12 bg-blue-500 ">

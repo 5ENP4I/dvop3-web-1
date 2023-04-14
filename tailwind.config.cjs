@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '59': '14.875rem'
+      },
       fontFamily:{
         jakarta: ['Plus Jakarta Sans']
       }

@@ -50,7 +50,7 @@
         </div>
       </div>
       
-      <div class="basis-1/2 items-center">
+      <div class="basis-1/2 items-cente flex justify-center">
         <img src="../../public/Diagram.svg" class="border-4 border-[#d5eaff] rounded-lg bg-[#d5eaff]"/>
       </div>
     </div>

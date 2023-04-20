@@ -27,7 +27,7 @@ const data: Data = {
       </div>
       <div class="pt-7"></div>
 
-      <div class="font-Font1 border-r-2 h-666">
+      <div class="border-r-2 h-666">
         <div class="pt-6">
           <img class="inline w-8 pb-1" src="/map.png">
           Map

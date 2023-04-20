@@ -71,11 +71,11 @@
 </script>
 
 <template>
-    <div class="flex flex-row place-items-stretch text-xl basis-full py-5 font-Font1">
+    <div class="flex flex-row place-items-stretch text-xl basis-full py-5">
         <template v-if="isShownAsClicked == true">
             <div class="flex flex-col w-full">
             <div class="pb-3"><p>{{dayOfWeek}}</p></div>
-            <div class="flex flex-row font-Font1 place-items-center text-lg text-center">
+            <div class="flex flex-row place-items-center text-lg text-center">
                 <div class="flex flex-col basis-1/4 bg-system-blue-300 rounded-md p-4">
                     <div class="basis-1/4">00 PM</div>
                     <div class="flex-grow"><img :src="sunSource" class="h-5/6 w-5/6 block mx-auto"/></div>

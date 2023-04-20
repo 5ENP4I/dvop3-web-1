@@ -30,7 +30,7 @@
             <p>Today {{time}}</p>
           </div>    
         </div>
-        <div class="basis-2/4 text-center font-Font1 font-medium">
+        <div class="basis-2/4 text-center font-medium">
           <h1 class="text-[100px]">{{mainTemp}}&deg;</h1>
           <p>{{state}}</p>
         </div>

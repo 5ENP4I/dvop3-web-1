@@ -19,6 +19,8 @@ module.exports = {
             border:'#E1E8EC'
           } 
         }
+      },spacing: {
+        '59': '14.875rem'
       }
     },
   },

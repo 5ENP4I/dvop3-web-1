@@ -1,25 +1,28 @@
 <script lang="ts">
 import BlueBoard from "./components/BlueBoard.vue"
-import Vyhledavac from './components/Vyhledavac.vue';
-import SideBarRight from './components/SideBarRight.vue';
+import Vyhledavac from './components/Vyhledavac.vue'
+import SideBarRight from './components/SideBarRight.vue'
+import LeftSidebar from './components/LeftSidebar.vue'
+import Properties from './components/Properties.vue'
 
 export default({
   name : 'App',
   components: {
     BlueBoard,
     Vyhledavac,
-    SideBarRight
-    
-  }
+    SideBarRight,
+    LeftSidebar,
+    Properties
+}
 })
 </script>
 
 
 <template>
-  <div class="place-items-stretch flex flex-row w-screen h-screen">
+  <div class="place-items-stretch flex flex-row w-screen h-screen text-center font-Font1">
     
-    <div class="flex flex-col basis-2/12 bg-red-800">
-      Pavel
+    <div class="basis-2/12">
+      <LeftSidebar/>
     </div>
     
     <div class=" flex flex-col basis-7/12 px-10 py-3">
@@ -33,7 +36,9 @@ export default({
         </div>
       </div>
 
-      <div class="basis-[46.7%] bg-red-500">Pavel</div>
+      <div class="basis-7/15">
+        <Properties/>
+      </div>
 
     </div>
     

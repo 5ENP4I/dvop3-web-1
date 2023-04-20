@@ -21,13 +21,13 @@ const data: Data = {
       </div>
       
       <div class="pt-7"></div>
-      <div class="font-semibold py-3 border-r-2 border-black ">
+      <div class="font-semibold py-3 border-r-2 border-black">
         <img class="inline w-8 pb-1" src="/dashboard-logo.png">
         Dashboard
       </div>
       <div class="pt-7"></div>
 
-      <div class="font-jakarta border-r-2">
+      <div class="font-Font1 border-r-2 h-666">
         <div class="pt-6">
           <img class="inline w-8 pb-1" src="/map.png">
           Map
@@ -40,11 +40,10 @@ const data: Data = {
           </div>
         </div>
 
-        <div class=" pt-80">
+        <div class="pt-52">
           <img class="inline w-8 pb-1" src="/logout.png">
           Log Out
         </div>
-        <div class="pt-8"></div>
       </div>
     </div>
   </div>

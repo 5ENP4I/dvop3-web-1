@@ -14,7 +14,7 @@ const data: Data = {
 </script>
 
 <template>
-  <div class="grid grid-cols-2 gap-8 mt-8 mx-12">
+  <div class="grid grid-cols-2 gap-8 mt-8">
     <div v-for="(element, index) in data.elements" :key="index">
       <div class="flex flex-row h-40 border-4 border-[#ECF3F8] rounded-lg bg-[#ECF3F8] text-left">
         <div class="flex flex-col justify-center px-5">

@@ -6,21 +6,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily : {
-        'Font1' : 'Plus Jakarta Sans'
+      fontFamily: {
+        'Font1': 'Plus Jakarta Sans'
       },
-      colors:{
-        system:{
-          blue:{
-            300 : '#BADCFF',
-            500 : '#24609B'
+      colors: {
+        system: {
+          blue: {
+            300: '#BADCFF',
+            500: '#24609B'
           },
-          gray:{
-            border:'#E1E8EC'
-          } 
+          gray: {
+            border: '#E1E8EC'
+          }
         }
-      },spacing: {
+      },
+      spacing: {
         '59': '14.875rem'
+      },
+      height: {
+        '666': '66.4vh'
       }
     },
   },

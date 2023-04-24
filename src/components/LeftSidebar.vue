@@ -27,7 +27,7 @@ const data: Data = {
       </div>
       <div class="pt-7"></div>
 
-      <div class="border-r-2 h-666">
+      <div class="border-r-2 h-fit">
         <div class="pt-6">
           <img class="inline w-8 pb-1" src="/map.png">
           Map
@@ -40,7 +40,7 @@ const data: Data = {
           </div>
         </div>
 
-        <div class="pt-52">
+        <div class="pt-52 ">
           <img class="inline w-8 pb-1" src="/logout.png">
           Log Out
         </div>
